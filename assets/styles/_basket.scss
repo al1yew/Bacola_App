@@ -1,0 +1,328 @@
+@media(min-width: 1050px) {
+
+    #contentbasket {
+        height: 85vh;
+
+        .all {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .bag_div_big {
+                background-color: white;
+                padding: 20px 35px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                .image {
+
+                    margin: 10px auto;
+                    width: 170px;
+                    height: 170px;
+                    background-color: rgb(233, 236, 239);
+                    border-radius: 100%;
+                    position: relative;
+                    overflow: hidden;
+
+                    svg {
+                        width: 90px;
+                        position: absolute;
+                        bottom: -5%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        height: 90px;
+                    }
+                }
+
+                .firstp {
+                    text-align: center;
+                    color: red;
+                    padding-bottom: 45px;
+                    font-family: Dosis;
+                    font-size: 18px;
+                }
+
+                .gotoshop {
+                    padding: 15px 30px;
+                    border-radius: 30px;
+                    transition: 0.2s;
+                    background-color: blue;
+                    color: white;
+                    font-weight: 600;
+
+                    &:hover {
+                        background-color: darkblue;
+                    }
+                }
+            }
+        }
+    }
+
+
+    #prod_in_cart {
+        padding-bottom: 40px;
+
+        .all {
+            font-family: Inter;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; //bunu silmek lazim ola biler
+
+            .left {
+                display: flex;
+                // justify-content: flex-start;
+                // align-items: center;
+                flex-direction: column;
+
+                table {
+                    width: 100%;
+
+                    thead {
+                        tr {
+                            th {
+                                font-size: 14px;
+                                padding: 20px 0;
+                                font-weight: 400;
+                                color: rgb(164, 164, 164);
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    tbody {
+                        tr {
+                            display: table-row;
+
+                            td {
+                                border-top: 0.5px solid #dee2e6;
+                                border-bottom: 0.5px solid #dee2e6;
+                                padding: 10px;
+                                font-size: 14px;
+                                text-align: center;
+
+                                &:nth-child(2) {
+                                    text-align: start;
+                                }
+
+                                &:nth-child(3) {
+                                    color: #71778E;
+                                }
+
+                                &:nth-child(4) {
+                                    .top_counter {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+
+                                        span {
+                                            font-size: 14px;
+                                            font-family: Dosis;
+                                            color: black;
+                                            padding: 0 10px;
+                                        }
+
+                                        button {
+                                            color: black;
+                                            background-color: rgb(237, 238, 245);
+                                            transition: 0.3s;
+                                            font-size: 18px;
+                                            padding: 3px 10px;
+                                            border-radius: 100%;
+                                            border: none;
+                                            outline: none;
+
+                                            &:first-child {
+                                                padding: 3px 12px;
+                                            }
+
+                                            &:hover {
+                                                background-color: rgb(254, 206, 9);
+                                            }
+                                        }
+                                    }
+
+                                    .bottom_counter {
+                                        span {
+                                            font-size: 10px;
+                                            text-align: center;
+                                            color: red;
+                                            display: none;
+                                        }
+                                    }
+                                }
+
+                                &:nth-child(5) {
+                                    font-size: 14px;
+                                    color: black;
+                                    font-weight: 600;
+                                }
+
+                                &:nth-child(6) {
+                                    font-size: 16px;
+                                    color: black;
+                                    font-weight: 700;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .bottom {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 30px;
+
+                    button {
+                        outline: none;
+                        border: none;
+                        padding: 10px;
+                        border-radius: 5px;
+                        color: white;
+                        background-color: blue;
+                        transition: 0.3s;
+
+                        &:nth-child(2) {
+                            background-color: rgb(0, 24, 76);
+                        }
+
+                        &:hover {
+                            background-color: rgb(78, 78, 255);
+                        }
+                    }
+                }
+
+            }
+
+            .right {
+                border: 0.5px solid #dee2e6;
+                border-radius: 10px;
+                padding: 20px;
+
+                li {
+                    list-style: none;
+                }
+
+                ul {
+                    padding: 0;
+                    margin: 0;
+                    font-family: Inter;
+
+                    li {
+                        padding: 12px 0;
+                        color: black;
+
+                        &:nth-child(1) {
+                            padding-top: 0;
+                            border-bottom: 0.5px solid #dee2e6;
+                            font-family: Dosis;
+                            font-size: 18px;
+                        }
+
+                        &:nth-child(2) {
+                            font-size: 13px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-bottom: 0.5px solid #dee2e6;
+
+                            span {
+                                &:last-child {
+                                    font-family: InterLight;
+                                }
+                            }
+                        }
+
+                        &:nth-child(3) {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-bottom: 0.5px solid #dee2e6;
+
+                            .left_li {
+                                font-size: 13px;
+                            }
+
+                            .right_li {
+                                display: flex;
+                                font-family: InterLight;
+                                font-weight: 550;
+                                justify-content: flex-start;
+                                align-items: flex-end;
+                                font-size: 14px;
+                                flex-direction: column;
+
+                                #flat_rate {
+                                    color: red;
+                                }
+
+                                label {
+                                    padding: 5px 0;
+                                }
+
+                                .shipngto {
+                                    padding: 5px 0;
+
+                                    span {
+                                        font-weight: 700;
+                                    }
+                                }
+
+                                a {
+                                    padding: 5px 0;
+                                    text-decoration: none;
+                                    color: rgb(82, 196, 234);
+                                    transition: 0.2s;
+
+                                    &:hover {
+                                        text-decoration: underline;
+                                        color: blue;
+                                    }
+                                }
+                            }
+                        }
+
+                        &:nth-child(4) {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-size: 13px;
+                            border-bottom: 0.5px solid #dee2e6;
+
+                            span {
+                                &:nth-child(1) {
+                                    font-weight: 600;
+                                }
+
+                                &:nth-child(2) {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+
+                        &:nth-child(5) {
+                            width: 100%;
+                            padding-bottom: 0;
+
+                            button {
+                                width: 100%;
+                                color: white;
+                                font-size: 13px;
+                                padding: 18px 0;
+                                border: none;
+                                outline: none;
+                                border-radius: 5px;
+                                background-color: rgb(237, 23, 74);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}

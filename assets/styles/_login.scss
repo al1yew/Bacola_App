@@ -1,0 +1,153 @@
+@media(min-width: 1050px) {
+    #logindiv {
+        width: 100%;
+        font-family: Dosis;
+
+        .all {
+            display: flex;
+            justify-content: space-between;
+            // align-items: center;
+
+            .locationss {
+                margin-top: 20px !important;
+                padding: 0;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                a {
+                    text-decoration: none;
+                    color: blue;
+                    font-size: 14px;
+                }
+
+                i {
+                    font-size: 12px;
+                    color: grey;
+                    margin: 0px 10px;
+                }
+
+                span {
+                    color: grey;
+                    font-size: 14px;
+
+                }
+            }
+
+            .input_area {
+                padding: 50px 0;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+
+                h6 {
+                    padding-bottom: 10px;
+                    border-bottom: 0.5px solid rgb(243, 244, 247);
+
+                    width: 100%;
+                }
+
+                label {
+                    font-family: Inter !important;
+                    font-size: 13px;
+                    color: #202435;
+                    padding-bottom: 20px;
+                }
+
+                input {
+                    padding: 10px;
+                    background-color: rgb(235, 235, 235);
+                    border-radius: 8px;
+                    margin-bottom: 20px;
+                    width: 100%;
+                    outline: none;
+                    border: none;
+                }
+
+                .checkbox_label {
+                    display: flex;
+                    justify-content: flex-start;
+                    width: 100%;
+                    align-items: center;
+
+                    input {
+                        width: 3%;
+                    }
+
+                    label {
+                        margin-left: 7px;
+                        width: 100%;
+                        padding-bottom: 19px;
+                    }
+                }
+
+                button {
+                    outline: none;
+                    border: none;
+                    color: white;
+                    font-family: InterLight;
+                    background-color: rgb(35, 58, 149);
+                    padding: 10px 24px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    border-radius: 7px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 13px;
+                    font-family: InterLight;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                    color: #202435;
+
+                    span {
+                        text-decoration: underline;
+                        color: red;
+                        cursor: pointer;
+                    }
+                }
+
+                a {
+                    font-size: 13px;
+                    font-family: InterLight;
+                    transition: 0.3s;
+                    font-weight: 500;
+                    color: #2bbef9;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: blue;
+                    }
+                }
+
+            }
+
+            #error {
+                margin: 20px 0;
+                padding: 20px;
+                border: 1px solid red;
+                border-radius: 5px;
+                display: none;
+
+                .error {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    i {
+                        font-size: 30px;
+                        margin-right: 10px;
+                    }
+
+                    p {
+                        color: red;
+                        font-size: 18px;
+                    }
+                }
+            }
+
+        }
+    }
+}

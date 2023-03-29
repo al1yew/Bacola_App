@@ -1,0 +1,116 @@
+@media(min-width: 1050px) {
+    #firstabout {
+        background-image: url(../images/about-header.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        object-fit: cover;
+        height: 100vh;
+
+        .all {
+            font-family: Inter;
+            padding: 250px 0;
+            color: white;
+
+            p {
+                text-align: center;
+                font-size: 70px !important;
+            }
+
+            h6 {
+                text-align: center;
+            }
+        }
+    }
+
+    #secondabout {
+        margin: 40px 0;
+
+        .all {
+            font-family: Inter;
+
+            .top {
+                color: #202435;
+
+                p {
+                    font-size: 14px;
+                    margin-bottom: 40px;
+                    font-family: InterLight;
+                    font-size: 14px;
+                    font-weight: 600;
+
+                    &:first-child {
+                        margin-top: 40px;
+                    }
+
+                    &:last-child {
+                        // text-align: end;
+                        padding-left: 50px;
+                    }
+                }
+
+                h2 {
+                    width: 60%;
+                    margin-bottom: 40px;
+                    padding-left: 50px;
+                }
+            }
+
+            .middle {
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                margin-bottom: 150px;
+
+                .right {
+                    color: #202435;
+                    padding: 50px;
+                    padding-top: 150px;
+                    display: flex;
+                    flex-direction: column;
+
+                    h6 {
+                        margin-bottom: 30px;
+                    }
+
+                    h2 {
+                        margin-bottom: 30px;
+                    }
+
+                    p {
+                        font-family: InterLight;
+                        font-size: 14px;
+                        font-weight: 600;
+
+                        &:last-child {
+                            padding-top: 20px;
+                        }
+                    }
+                }
+
+                .textmiddle {
+                    position: absolute;
+                    padding: 50px 30px 50px 70px;
+                    bottom: -10%;
+                    left: 10%;
+                    background-color: white;
+                    border-radius: 10px;
+                    // box-shadow: 0px 0px 5px 2px grey;
+
+                    p {
+                        font-family: InterLight;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .bottom {
+                p {
+                    font-family: InterLight;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

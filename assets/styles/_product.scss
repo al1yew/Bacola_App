@@ -1,0 +1,747 @@
+@media(min-width: 1050px) {
+    #locationinpages {
+        background-color: rgb(244, 244, 244);
+        padding: 20px 0;
+
+        .all {
+            font-family: Dosis;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .alllocations {
+                a {
+                    text-decoration: none;
+                    color: blue;
+                    font-size: 14px;
+                }
+
+                i {
+                    font-size: 12px;
+                    color: grey;
+                    margin: 0px 10px;
+                }
+
+                span {
+                    color: grey;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .body_product {
+        background-color: rgb(244, 244, 244);
+        padding-bottom: 60px;
+    }
+
+
+    #productinfo {
+        background-color: rgb(244, 244, 244);
+        margin-bottom: 40px;
+
+        .all {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+
+            .top {
+                padding: 0;
+                font-family: Inter;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+
+                p {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 24px;
+                    font-weight: 500;
+                    padding-bottom: 15px;
+                }
+
+                .head_prod {
+                    display: flex;
+                    // justify-content: flex-start;
+                    align-items: center;
+
+                    .brands_name {
+                        font-family: InterLight;
+                        padding-right: 10px;
+                        border-right: 1px solid rgb(196, 196, 196);
+
+                        span {
+                            font-size: 12px;
+
+                            &:first-child {
+                                color: #9b9bb4;
+                            }
+
+                            &:last-child {
+                                color: black;
+                            }
+                        }
+                    }
+
+                    .rating_prod {
+                        padding: 0 10px;
+                        border-right: 1px solid rgb(196, 196, 196);
+
+                        i {
+                            color: yellow;
+                            font-size: 12px;
+                        }
+
+                        .greyy {
+                            color: rgb(196, 196, 196);
+                        }
+
+                        span {
+                            font-size: 12px;
+                            font-family: InterLight;
+                            font-weight: 500;
+                        }
+                    }
+
+                    .num_prod {
+                        padding: 0 10px;
+                        font-family: InterLight;
+                        font-weight: 500;
+                        font-size: 12px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-top: 4px;
+
+                        span {
+                            &:first-child {
+                                color: #9b9bb4;
+                            }
+
+                            &:last-child {
+                                color: black;
+                                font-size: 12.5px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+
+                .left123 {
+                    position: relative;
+                    cursor: pointer;
+                    // display: flex;
+                    // flex-direction: column;
+                    // align-items: center;
+
+                    .percentofproduct {
+                        position: absolute;
+                        top: 5%;
+                        font-family: Dosis;
+                        left: 5%;
+                        padding: 4px 10px;
+                        z-index: 123;
+                        color: white;
+                        font-size: 13px;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        background-color: rgb(43, 190, 249);
+                    }
+
+                    .playvideo {
+                        padding: 10px 16px;
+                        color: black;
+                        transition: 0.3s;
+                        position: absolute;
+                        bottom: 5%;
+                        cursor: pointer;
+                        left: 5%;
+                        background-color: white;
+                        border-radius: 100%;
+                        box-shadow: 0px 0px 3px 1px grey;
+
+                        &:hover {
+                            background-color: grey;
+                        }
+                    }
+                }
+
+                .middle {
+                    font-family: InterLight;
+
+                    li {
+                        list-style: none;
+                        padding-bottom: 15px;
+                    }
+
+                    ul {
+                        margin: 0;
+                        padding: 0;
+
+                        li {
+                            &:nth-child(1) {
+                                font-family: DosisLight;
+                                font-weight: 700;
+
+                                span {
+                                    &:nth-child(1) {
+                                        text-decoration: line-through;
+                                        color: #c2c2d3;
+                                        font-size: 19px;
+                                    }
+
+                                    &:nth-child(2) {
+                                        color: red;
+                                        font-size: 22px;
+                                        padding-left: 10px;
+                                    }
+
+                                    &:nth-child(3) {
+                                        color: red;
+                                        font-size: 22px;
+                                    }
+                                }
+                            }
+
+                            &:nth-child(2) {
+                                span {
+                                    background-color: rgb(229, 248, 237);
+                                    color: rgb(0, 190, 168);
+                                    padding: 5px 7px;
+                                    border-radius: 15px;
+                                    font-family: Dosis;
+                                    font-size: 12.5px;
+                                }
+                            }
+
+                            &:nth-child(3) {
+                                p {
+                                    font-size: 13px;
+                                    color: black;
+                                }
+                            }
+
+                            &:nth-child(4) {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+
+                                .counter {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+
+                                    .top_counter {
+                                        display: flex;
+                                        justify-content: flex-start;
+                                        align-items: center;
+
+                                        span {
+                                            font-size: 20px;
+                                            font-family: Dosis;
+                                            color: black;
+                                            padding: 0 25px;
+                                        }
+
+                                        button {
+                                            color: black;
+                                            background-color: rgb(237, 238, 245);
+                                            transition: 0.3s;
+                                            font-size: 18px;
+                                            padding: 8px 15px;
+                                            border-radius: 100%;
+
+                                            &:first-child {
+                                                padding: 8px 17px;
+                                            }
+
+                                            &:hover {
+                                                background-color: rgb(254, 206, 9);
+                                            }
+                                        }
+                                    }
+
+                                    .bottom_counter {
+                                        span {
+                                            font-size: 10px;
+                                            text-align: center;
+                                            color: red;
+                                            display: none;
+                                        }
+                                    }
+
+                                }
+
+                                button {
+                                    padding: 10px 40px;
+                                    border-radius: 20px;
+                                    background-color: rgb(35, 58, 149);
+                                    transition: 0.3s;
+                                    color: white;
+                                    font-size: 13px;
+                                    border: none;
+                                    font-weight: 600;
+                                    outline: none;
+
+                                    &:hover {
+                                        background-color: rgb(61, 81, 161);
+                                    }
+                                }
+                            }
+
+                            &:nth-child(5) {
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+
+
+                                span {
+                                    text-decoration: none;
+                                    padding: 8px 10px;
+                                    border: 0.5px solid rgb(189, 189, 189);
+                                    color: grey;
+                                    border-radius: 25px;
+                                    margin-right: 20px;
+                                    display: flex;
+                                    justify-content: center;
+                                    cursor: pointer;
+                                    font-size: 11px;
+                                    align-items: center;
+
+                                    i {
+                                        margin-right: 10px;
+                                        color: grey;
+                                    }
+
+                                    &:last-child {
+                                        border: none;
+                                    }
+                                }
+                            }
+
+                            &:nth-child(6) {
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                padding-bottom: 20px;
+                                border-bottom: 0.5px solid rgb(196, 196, 196);
+
+                                span {
+                                    margin-bottom: 10px;
+                                    font-size: 12px;
+
+                                    i {
+                                        color: green;
+                                        margin-right: 8px;
+                                    }
+                                }
+                            }
+
+                            &:nth-child(7) {
+                                padding-top: 15px;
+
+                                p {
+                                    font-family: InterLight;
+                                    font-weight: 500;
+                                    font-size: 12px;
+                                    color: #959595;
+
+                                    a {
+                                        text-decoration: none;
+                                        transition: 0.2s;
+                                        color: rgb(72, 72, 72);
+
+                                        &:hover {
+                                            color: blue;
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .social_media_prod {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin-top: 20px;
+
+                        i {
+                            padding: 7px 9px;
+                            border-radius: 100%;
+                            margin: 0px 4px;
+                            color: white;
+                            margin-left: 0;
+                            transition: 0.3s;
+                            cursor: pointer;
+
+                            &:hover::before {
+                                filter: brightness(0.7);
+                            }
+                        }
+
+                        .klbth-icon-facebook {
+                            background-color: rgb(59, 89, 152);
+                        }
+
+                        .klbth-icon-twitter {
+                            background-color: rgb(29, 161, 242);
+                        }
+
+                        .klbth-icon-pinterest {
+                            background-color: rgb(230, 0, 35);
+                        }
+
+                        .klbth-icon-linkedin {
+                            background-color: rgb(0, 119, 181);
+                        }
+
+                        .klbth-icon-reddit {
+                            background-color: rgb(255, 69, 0);
+                        }
+
+                        .klbth-icon-whatsapp {
+                            background-color: rgb(37, 211, 102);
+                        }
+                    }
+                }
+
+                .right {
+                    display: flex;
+                    font-family: InterLight;
+                    flex-direction: column;
+
+                    .covidinfo {
+                        font-size: 12px;
+                        background-color: #ffeef2;
+                        margin-bottom: 15px;
+                        color: #be123c;
+                        padding: 10px 20px;
+                        text-align: center;
+                        border-radius: 7px;
+                    }
+
+                    .desc {
+                        flex-direction: column;
+                        display: flex;
+                        padding: 25px;
+                        background-color: rgb(247, 248, 253);
+                        border-radius: 7px;
+
+                        div {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 20px;
+
+                            p {
+                                font-size: 12px;
+                                color: black;
+                                font-weight: 500;
+                            }
+
+                            i {
+                                font-size: 18px;
+                                color: black;
+                                margin-right: 20px;
+                            }
+
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    #prodreview {
+
+        .all {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+
+            .tabmenu {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding-bottom: 20px;
+                border-bottom: 0.5px solid rgb(216, 216, 216);
+
+                .tabclick {
+                    &:first-child {
+                        padding: 0;
+                        padding-right: 20px;
+                    }
+
+                    font-size: 16px;
+                    padding: 0 20px;
+                    cursor: pointer;
+                    padding-top: 0;
+                    color: rgb(200, 200, 200);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+                    font-family: DosisLight;
+                    font-weight: 600;
+                }
+            }
+
+            .review {
+                padding: 20px 0;
+
+                .review_head_p {
+                    font-family: DosisLight;
+                    font-weight: 600;
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+
+                .person_rev {
+                    margin-bottom: 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .left {
+                        width: 7%;
+
+                        img {
+                            width: 100%;
+                            border-radius: 100%;
+                        }
+                    }
+
+                    .right {
+                        width: 90%;
+
+                        .rating_prod {
+                            display: flex;
+                            margin-bottom: 12px;
+
+                            i {
+                                color: yellow;
+                                font-size: 12px;
+                                margin: 0 2px;
+                            }
+
+                            .greyy {
+                                color: grey;
+                            }
+                        }
+
+                        .nameof {
+                            margin-bottom: 7px;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+
+                            span {
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+
+                                &:nth-child(1) {
+                                    font-size: 15px;
+                                    color: black;
+                                    font-family: Dosis;
+                                }
+
+                                &:nth-child(2) {
+                                    font-size: 14px;
+                                    margin-left: 3px;
+                                    color: #71778E;
+                                }
+                            }
+                        }
+
+                        p {
+                            font-family: InterLight;
+                            font-weight: 600;
+                            font-size: 13px;
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            .add_review {
+                padding: 0;
+                font-family: InterLight;
+
+                h5 {
+                    padding-bottom: 15px;
+                    font-family: Inter;
+                    border-bottom: 0.5px solid rgb(200, 200, 200);
+                }
+
+                p {
+                    font-size: 13px;
+                    color: #202334;
+                    margin-bottom: 15px;
+
+                    &:nth-child(1) {
+                        margin-top: 15px;
+                    }
+                }
+
+                .ratingkeeper {
+                    display: flex;
+                    align-items: center;
+
+                    div {
+                        padding: 0 10px;
+                        cursor: pointer;
+                        border-right: 0.1px solid rgb(200, 200, 200);
+
+                        &:hover i {
+                            color: yellow;
+                        }
+
+                        i {
+                            color: rgb(200, 200, 200);
+                            font-size: 12px;
+                            padding-bottom: 2px;
+                            cursor: pointer;
+                            transition: 0.3s;
+                        }
+
+                        &:nth-child(1) {
+                            border-left: none;
+                            padding-left: 0;
+                        }
+
+                        &:last-child {
+                            border-right: none;
+                            padding-right: 0;
+                        }
+                    }
+                }
+
+                .formkeeper {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+
+                    .inputkeeper {
+                        width: 100%;
+                    }
+
+                    .mutleq {
+                        display: none;
+                        margin: 10px 0;
+                        color: red;
+                    }
+
+                    textarea {
+                        width: 100%;
+                        padding: 10px;
+                        border-radius: 5px;
+                        background-color: rgb(243, 244, 247);
+                        border: none;
+                        outline: none;
+                        height: 200px;
+                    }
+
+                    label {
+                        font-size: 13px;
+                        margin-top: 15px;
+                    }
+
+                    input {
+                        width: 100%;
+                        padding: 10px;
+                        border-radius: 5px;
+                        background-color: rgb(243, 244, 247);
+                        border: none;
+                        margin-top: 15px;
+                        outline: none;
+                    }
+
+                    .inputcheckbox {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        #review {
+                            width: 1%;
+                        }
+
+                        label {
+                            width: 98%;
+                            font-size: 13px;
+                            font-weight: 600;
+                            cursor: pointer;
+                        }
+                    }
+
+                    button {
+                        border: none;
+                        outline: none;
+                        padding: 10px 25px;
+                        border-radius: 5px;
+                        color: white;
+                        font-size: 14px;
+                        margin-top: 15px;
+                        font-weight: 600;
+                        background-color: rgb(35, 58, 149);
+                    }
+
+                }
+            }
+
+            .description_p {
+                padding: 0;
+                padding-top: 30px;
+
+                span {
+                    padding: 10px;
+                    display: block;
+                }
+            }
+
+            .additional_spans {
+                padding: 0;
+                margin-top: 30px;
+                display: flex;
+
+                span {
+                    padding: 8px;
+                    display: block;
+                    border: 0.5px solid rgb(200, 200, 200);
+
+                    &:first-child {
+                        width: 30%;
+                    }
+
+                    &:last-child {
+                        width: 70%;
+                    }
+                }
+            }
+
+            .chosen {
+                color: black !important;
+            }
+        }
+    }
+}
