@@ -414,16 +414,16 @@
                 .middle {
                     background-color: rgb(247, 248, 253);
                     margin: 10px 0;
-                    padding: 0px 5px;
+                    padding: 10px;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     border-radius: 10px;
                     width: 100%;
 
-                    .left {
+                    .leftt {
                         display: flex;
-                        justify-content: space-between;
+                        justify-content: start;
                         align-items: center;
 
                         i {
@@ -437,14 +437,14 @@
                         }
                     }
 
-                    .right {
+                    .rightt {
                         display: flex;
-                        justify-content: center;
+                        justify-content: end;
                         align-items: center;
                         position: relative;
 
                         .first {
-                            width: 100%;
+                            width: 58%;
                             padding-right: 10px;
                             border-right: 0.5px solid grey;
 
@@ -452,11 +452,10 @@
                                 width: 100%;
                                 font-size: 13px;
                                 color: grey;
-                                display: flex;
                                 color: black;
-                                justify-content: center;
+                                display: flex;
+                                justify-content: end;
                                 align-items: center;
-                                // position: relative;
                                 cursor: pointer;
 
                                 .sortingdiv {
@@ -496,7 +495,6 @@
                                         }
                                     }
                                 }
-
                             }
 
                             i {
@@ -505,25 +503,30 @@
                         }
 
                         .second {
-                            width: 70%;
+                            width: 40%;
                             padding: 10px 0px 10px 10px;
                             display: flex;
-                            justify-content: center;
+                            justify-content: start;
                             align-items: center;
                             position: relative;
 
-
-                            span {
+                            .datalarisaxlayan {
                                 width: 100%;
                                 font-size: 13px;
                                 color: grey;
-
                                 display: flex;
                                 color: black;
                                 justify-content: center;
                                 align-items: center;
                                 // position: relative;
                                 cursor: pointer;
+
+                                .show12 {
+                                    border-radius: 2px;
+                                    border: 0.5px solid #71778E;
+                                    padding: 3px;
+                                    margin: 0 4px;
+                                }
 
                                 .sortdata {
                                     display: none;
@@ -569,7 +572,7 @@
                             }
 
                             i {
-                                margin-left: 8px;
+                                margin-left: 5px;
                             }
                         }
                     }

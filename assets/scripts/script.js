@@ -56,7 +56,6 @@ $(document).ready(function () {
         modal.style.display = "none";
       }
     }
-
   }
 
   $('.close_location').click(function () {
@@ -232,8 +231,6 @@ $(document).ready(function () {
     // else {
     //   $('#bye').css('display', 'none');
     // }
-
-    //yashayiiiiiiiishhhhh
 
     $('#inp_n').val().length > 0 && $('#inp_s').val().length > 0 && $('#inp_su').val().length > 0 ? $('#bye').css('display', 'block') : $('#bye').css('display', 'none');
 
